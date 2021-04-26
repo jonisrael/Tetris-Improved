@@ -2,7 +2,8 @@
 Tetris with Classic and Modern Tetris Physics (Python)
 Uses a freeCodeCamp Tetris template from the video https://youtu.be/zfvxp7PgQ6c
 
-The purpose is to create a program that can play both the original early versions of NTSC Tetris (NES Tetris, Gameboy Tetris), as well as Modern tetris (most tetris games after 2006).  In general, classic Tetris has a almost completely randomized piece system, while later tetris games have 7 piece random bags, which means that there is a guarantee that certain pieces will be generated within 1 to 13 pieces.
+The purpose is to create a program that can play both the original early versions of NTSC Tetris (NES Tetris, Gameboy Tetris), as well as Modern tetris (most tetris games after 2006).  In general, classic Tetris has a almost completely randomized piece system, and when a piece hits the bottom or another block, it locks into place instantly.
+In modern tetris, pieces are randomly generated in 7 piece "bags" (or lists), which means that there is a guarantee that certain pieces will appear within a dozen or so pieces.
 
 Critical Bug Fixes:
   - Fixed a line clear calculation bug when clearing three or four lines with non-cleared line(s) in-between.
